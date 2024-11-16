@@ -6,7 +6,7 @@ export const createPost = (req, res) => {
     console.log(sms_message)
 }
 export const getPost = (req, res) => {
-    res.json({ message: "This is the route to get post" })
+    res.json({ message: "This is the route to get all post" })
 }
 export const updatePost = (req, res) => {
     res.json({ message: "This is the route to update post from the controller" })
