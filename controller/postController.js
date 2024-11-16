@@ -9,7 +9,7 @@ export const getPost = (req, res) => {
     res.json({ message: "This is the route to get post" })
 }
 export const updatePost = (req, res) => {
-    res.json({ message: "This is the route to update post" })
+    res.json({ message: "This is the route to update post from the controller" })
 }
 export const deletePost = (req, res) => {
     res.json({ message: "This is the route to delete post" })
